@@ -1,2 +1,2 @@
 # Item-Switcher
-Item (Themes, Plugins etc) switcher in an iFrame
+Item (Themes, Plugins etc) switcher in an iFrame. 
