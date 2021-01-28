@@ -103,8 +103,137 @@ a {
 	color: #f1f1f1
 }
 
-/* iFrame */
+/* Dropdown selected */
+.dd-selected {
+	background: #2b2b2b;
+	width: 250px;
+	display: block;
+	padding:10px;
+	color: #999 !important;
+	border-radius: 2px
+}
+.dd-selected:hover {
+    color:#F0F0F0;
+}
+
+/* Dropdown chevrons */
+.c-down, 
+.c-up {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+	background-color: #444;
+	height: 24px;
+	border-radius: 2px
+}
+.c-down:hover, 
+.c-up:hover {
+	background-color: #555
+} 
+.c-down:hover path, 
+.c-up:hover path {
+	fill: #eee !important
+}
+
+/* Dropdown preview */
+.preview {
+	display: none;
+	position: absolute;
+	left: 275px;
+	top: 0;
+	background: #2c2c2c;
+	padding: 7px;
+	border-radius: 3px;
+	z-index: 1
+}
+.dd-wrap ul li:hover .preview { 
+	display: inline
+}
+.dd-wrap ul li span {
+	float: right;
+	font-size: 11px;
+	background: #444;
+	border-radius: 2px;
+	padding: 3px 8px 4px 8px;
+	color: #919191;
+	margin-top: -2px;
+	min-width: 40px;
+	text-align: center
+}
+.dd-wrap ul li:hover span {
+	background: #32ae32;
+	color: #fff
+}
+
+/* Links */
+.buy a svg, 
+.close a svg {
+	vertical-align: middle
+}
+.close a { 
+	margin-right: -30px
+}
+.buy-text {
+	margin-left: 6px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	top: -7px;
+	padding: 5px 0
+}
+.link-buy a,
+.link-close a{
+	padding: 0 20px;
+	float: right;
+	line-height: 82px;
+	height: 70px;
+	margin-top: -15px;
+	vertical-align: middle;
+	border-left: 1px solid #363636;
+	color: #919191
+}
+.link-buy a path, 
+.link-close a path {
+	fill: #919191 !important
+}
+.link-buy a:hover, 
+.link-close a:hover {
+	background-color: #282828;
+	color: #fff
+}
+.link-buy a:hover path, 
+.link-close a:hover path {
+	fill: #fff !important
+}
+
+
 #switcher-frame {
 	margin: 0 auto;
 	display: block
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.preview { width: 360px }
+}
+    
+@media (max-width: 767px) {
+	.preview {
+		width: 300px;
+		left: 191px
+	}
+	.dd-selected { width: 160px }
+	.dd-wrap ul li a { min-width: 190px }
+	.dd-wrap ul { width: 168px }
+	.logo { margin-right: 10px }
+}
+
+@media (max-width: 600px){
+	.dd-wrap { display: none !important }
+}
+
+@media (max-width: 480px) {
+	.preview, .buy-text { display: none !important }
+	.buy a, .close a { padding: 0 15px }
+	.buy a img, .close a img { margin-right: 0 }
 }
