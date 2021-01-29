@@ -26,8 +26,14 @@ DOMready(function() {
 		_itemSelected = document.querySelector('.dd-selected'),
 		_deviceSwitcher = document.querySelector('#switcher'),
 		_deviceFrame = _deviceSwitcher.querySelector('#switcher-frame');
-	
-	/* Read text file */
+		
+	/**
+	 * Read text file
+	 * 
+	 * @param  {string}   file     The file to read
+	 * @param  {Function} callback The invoked callback function 
+	 * @return {Object}            Returns the file JSON data object
+	 */
 	function readTextFile(file, callback) {
 		
 		var rawFile = new XMLHttpRequest();
@@ -43,7 +49,7 @@ DOMready(function() {
 	}
 
 	/* Read JSON config file and process the callback function */
-	readTextFile("config.json", function(text){
+	readTextFile('config.json', function(text) {
 		var _itemsObject = JSON.parse(text);
 		
 		/* Set current item */
