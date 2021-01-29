@@ -48,7 +48,7 @@ DOMready(function() {
 		rawFile.send(null);
 	}
 
-	/* Read JSON config file and process the callback function */
+	/* Read JSON config.json file and process the callback function */
 	readTextFile('config.json', function(text) {
 		var _itemsObject = JSON.parse(text);
 		
@@ -94,7 +94,7 @@ DOMready(function() {
 		/**
 		 * Get item data
 		 * @param  {string} itemId The item unique ID
-		 * @return {Object}        The item data object
+		 * @return {Object}        Returns the item data object
 		 */
 		var _getItemData = function(itemId) {
 			for (var prop in _itemsObject) {
@@ -115,6 +115,7 @@ DOMready(function() {
 				
 				_itemDropDown.style.display = _dropDownOpen ? 'none' : 'block';
 				_dropDownOpen = _dropDownOpen ? false : true;
+				
 				document.querySelector('.c-down').style.display = _dropDownOpen ? 'none' : 'block';
 				document.querySelector('.c-up').style.display = _dropDownOpen ? 'block' : 'none';
 				
@@ -137,6 +138,7 @@ DOMready(function() {
 			_currentItemName = _currentItemData.name || 'Select';
 		
 		_itemSelected.innerText = _currentItemName;
+		
 		document.querySelector('.link-buy a').setAttribute('href', _currentItemData.buy);
 		document.querySelector('.link-close a').setAttribute('href', _currentItemData.demo);
 		
@@ -148,6 +150,20 @@ DOMready(function() {
 			_deviceSwitcherWH = window.innerHeight;
 			
 		_deviceFrame.style.height = (_deviceSwitcherWH - _deviceSwitcherH) +'px';
+	});
+
+	/* Read JSON company.json file and process the callback function */
+	readTextFile('company.json', function(text) {
+		var _companyData = JSON.parse(text),
+			_logo = document.querySelector('.logo a'),
+			_logoImage = _logo.querySelector('img');
+			
+		_logo.setAttribute('href', _companyData.url);
+		_logo.setAttribute('title', _companyData.name);
+		
+		_logoImage.setAttribute('src', _companyData.logo);
+		_logoImage.setAttribute('alt', _companyData.name);
+		
 	});
 	
 });
