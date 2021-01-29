@@ -47,7 +47,9 @@ DOMready(function() {
 		var _currentItemId = decodeURI(location.search.substring(location.search.indexOf('=')+1)) || Object.keys(_itemsObject)[0];
 		
 		/* Build items select dropdown list */
-		var _ddSelectList = document.createElement('ul');
+		var _ddSelectListCom = document.createComment('Items select dropdown'),
+			_ddSelectList = document.createElement('ul');
+			
 		for (var prop in _itemsObject) {
 			if (_itemsObject.hasOwnProperty(prop)) {
 				
@@ -77,7 +79,8 @@ DOMready(function() {
 			}
 		}
 		
-		document.querySelector('.dd-wrap').appendChild(_ddSelectList);
+		_itemSelector.appendChild(_ddSelectListCom);
+		_itemSelector.appendChild(_ddSelectList);
 		
 		/**
 		 * Get item data
@@ -125,14 +128,15 @@ DOMready(function() {
 		
 		var _currentItemData = _getItemData(_currentItemId),
 			_currentItemName = _currentItemData.name || 'Select';
-				console.log(_currentItemData)
-				_deviceFrame.src = _currentItemData.demo;
-			
+		
 		_itemSelected.innerText = _currentItemName;
 		document.querySelector('.link-buy a').setAttribute('href', _currentItemData.buy);
 		document.querySelector('.link-close a').setAttribute('href', _currentItemData.demo);
 		
-		/* Setup the iframe size */
+		/* Set iFrame 'src' attribute */
+		_deviceFrame.src = _currentItemData.demo;
+		
+		/* Set the iFrame size */
 		var	_deviceSwitcherH = _deviceSwitcher.clientHeight,
 			_deviceSwitcherWH = window.innerHeight;
 			
