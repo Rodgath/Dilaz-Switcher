@@ -54,19 +54,19 @@ DOMready(function() {
 			if (_itemsObject.hasOwnProperty(prop)) {
 				var _itemData = _itemsObject[prop],
 					_ddSelectListItem = document.createElement('li')
-					_ddSelectlLink = document.createElement('a');
-				
-				_ddSelectlLink.setAttribute('data-item-id', (_itemData.id || ''));
-				_ddSelectlLink.setAttribute('data-item-name', (_itemData.name || ''));
-				_ddSelectlLink.setAttribute('data-item-demo', (_itemData.demo || ''));
-				_ddSelectlLink.setAttribute('data-item-buy', (_itemData.buy || ''));
+					_ddSelectLink = document.createElement('a');
+					
+				_ddSelectLink.setAttribute('data-item-id', (_itemData.id || ''));
+				_ddSelectLink.setAttribute('data-item-name', (_itemData.name || ''));
+				_ddSelectLink.setAttribute('data-item-demo', (_itemData.demo || ''));
+				_ddSelectLink.setAttribute('data-item-buy', (_itemData.buy || ''));
 				
 			var ddListItemContent = '';
 					// ddListItemContent += '<a href="javascript:void();" data-item-id="'+ _itemData.id +'" data-item-name="'+ _itemData.name +'" data-item-demo="'+ _itemData.demo +'" data-item-buy="'+ _itemData.buy +'">'+ _itemData.name +' <span>'+ _itemData.category +'</span></a><img alt="" class="preview" src="'+ _itemData.preview +'">';
 			
 				// _ddSelectListItem.innerHTML = ddListItemContent;
 				
-				_ddSelectList.appendChild(_ddSelectlLink);
+				_ddSelectList.appendChild(_ddSelectLink);
 				_ddSelectList.appendChild(_ddSelectListItem);
 			}
 		}
