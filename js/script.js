@@ -42,16 +42,14 @@ DOMready(function() {
 	readTextFile("config.json", function(text){
 		var _itemsObject = JSON.parse(text);
 		
-		_itemsObject = _itemsObject;
-		
 		/* Set current item */
 		var _currentItemId = decodeURI(location.search.substring(location.search.indexOf('=')+1)) || Object.keys(_itemsObject)[0];
 		
 		/* Build items select dropdown list */
 		var _ddSelectList = document.createElement('ul');
-		
 		for (var prop in _itemsObject) {
 			if (_itemsObject.hasOwnProperty(prop)) {
+				
 				var _itemData = _itemsObject[prop],
 					_ddSelectListItem = document.createElement('li'),
 					_ddSelectLink = document.createElement('a'),
@@ -73,11 +71,10 @@ DOMready(function() {
 				_ddSelectPreview.setAttribute('src', (_itemData.preview || ''));
 				
 				_ddSelectListItem.appendChild(_ddSelectLink);
+				_ddSelectListItem.appendChild(_ddSelectPreview);
 				_ddSelectList.appendChild(_ddSelectListItem);
 			}
 		}
-		
-		// console.log(_ddSelectList)
 		
 		document.querySelector('.dd-wrap').appendChild(_ddSelectList);
 		
