@@ -93,7 +93,7 @@ DOMready(function() {
 		
 		/**
 		 * Get item data
-		 * @param  {String} itemId The item unique ID
+		 * @param  {string} itemId The item unique ID
 		 * @return {Object}        The item data object
 		 */
 		var _getItemData = function(itemId) {
@@ -105,12 +105,11 @@ DOMready(function() {
 		};
 		
 		var _itemDropDown = document.querySelector('.dd-wrap ul'),
-			_dropDownOpen = false;
+			_dropDownOpen = false,
+			_dropDownTriggers = document.querySelectorAll('.c-down, .c-up');
 		
-		var dropDownTriggers = document.querySelectorAll('.c-down, .c-up');
-		
-		for (var i = 0; i < dropDownTriggers.length; i++) {
-			dropDownTriggers[i].addEventListener('click', function(event) {
+		for (var i = 0; i < _dropDownTriggers.length; i++) {
+			_dropDownTriggers[i].addEventListener('click', function(event) {
 			
 				event.preventDefault();
 				
