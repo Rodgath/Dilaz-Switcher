@@ -22,6 +22,7 @@ var DOMready = function(fn) {
 DOMready(function() {
 	
 	var _itemsObject = {},
+		_itemSelector = document.querySelector('.dd-wrap'),
 		_deviceSwitcher = document.querySelector('#switcher'),
 		_deviceFrame = _deviceSwitcher.querySelector('#switcher-frame');
 	
@@ -84,26 +85,14 @@ DOMready(function() {
 		 * @return {Object}        The item data object
 		 */
 		var _getItemData = function(itemId) {
-			
 			for (var prop in _itemsObject) {
 				if (_itemsObject.hasOwnProperty(prop)) {
 					return _itemsObject[itemId];
 				}
 			}
-			// var _data = {},
-				// _item = document.querySelector('a[data-item-name="'+ itemName +'"]');
-				
-			// if (_item) {
-				// _data.name = itemName;
-				// _data.demo = _item.getAttribute('data-item-demo');
-				// _data.buy  = _item.getAttribute('data-item-buy');
-			// }
-			
-			// return _data;
 		};
 		
-		var _itemSelector = document.querySelector('.dd-wrap'),
-			_itemSelected = document.querySelector('.dd-selected'),
+		var _itemSelected = document.querySelector('.dd-selected'),
 			_itemDropDown = document.querySelector('.dd-wrap ul'),
 			_dropDownOpen = false;
 		
