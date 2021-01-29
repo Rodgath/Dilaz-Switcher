@@ -4,7 +4,7 @@
 		"name"     : "Theme 1",
 		"demo"     : "https://yourcompanyurl.com/themes/theme_1",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme1/?r =Rodgath",
-		"preview"  : "theme1.jpg",
+		"preview"  : "previews/theme1.jpg",
 		"category" : "Multi-Purpose",
 		"featured" : "",
 		"type"     : ""
@@ -15,7 +15,7 @@
 		"name"     : "Theme 2",
 		"demo"     : "https://yourcompanyurl.com/themes/theme_2",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme2/?r =Rodgath",
-		"preview"  : "theme2.jpg",
+		"preview"  : "previews/theme2.jpg",
 		"category" : "Multi-Purpose",
 		"featured" : "",
 		"type"     : ""
@@ -26,7 +26,7 @@
 		"name"     : "Theme 3",
 		"demo"     : "https://yourcompanyurl.com/themes/theme_3",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme3/?r =Rodgath",
-		"preview"  : "theme3.jpg",
+		"preview"  : "previews/theme3.jpg",
 		"category" : "Multi-Purpose",
 		"featured" : "",
 		"type"     : ""
@@ -37,7 +37,7 @@
 		"name"     : "Theme 4",
 		"demo"     : "https://yourcompanyurl.com/themes/theme_4",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme4/?r =Rodgath",
-		"preview"  : "theme4.jpg",
+		"preview"  : "previews/theme4.jpg",
 		"category" : "Multi-Purpose",
 		"featured" : "",
 		"type"     : ""
@@ -48,7 +48,7 @@
 		"name"     : "Theme 5",
 		"demo"     : "https://yourcompanyurl.com/themes/theme_5",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme5/?r =Rodgath",
-		"preview"  : "theme5.jpg",
+		"preview"  : "previews/theme5.jpg",
 		"category" : "Multi-Purpose",
 		"featured" : "",
 		"type"     : ""
@@ -59,7 +59,7 @@
 		"name"     : "Theme 6",
 		"demo"     : "https://yourcompanyurl.com/themes/theme_6",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme6/?r =Rodgath",
-		"preview"  : "theme6.jpg",
+		"preview"  : "previews/theme6.jpg",
 		"category" : "Multi-Purpose",
 		"featured" : "",
 		"type"     : ""
@@ -70,7 +70,7 @@
 		"name"     : "Theme 7",
 		"demo"     : "https://yourcompanyurl.com/themes/theme_7",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme7/?r =Rodgath",
-		"preview"  : "theme7.jpg",
+		"preview"  : "previews/theme7.jpg",
 		"category" : "Multi-Purpose",
 		"featured" : "",
 		"type"     : ""
@@ -81,7 +81,7 @@
 		"name"     : "Theme 8",
 		"demo"     : "https://yourcompanyurl.com/themes/theme_8",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme8/?r =Rodgath",
-		"preview"  : "theme8.jpg",
+		"preview"  : "previews/theme8.jpg",
 		"category" : "Multi-Purpose",
 		"featured" : "",
 		"type"     : ""
@@ -92,7 +92,7 @@
 		"name"     : "Theme 9",
 		"demo"     : "https://yourcompanyurl.com/themes/theme_9",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme9/?r =Rodgath",
-		"preview"  : "theme9.jpg",
+		"preview"  : "previews/theme9.jpg",
 		"category" : "Multi-Purpose",
 		"featured" : "",
 		"type"     : ""
@@ -103,7 +103,7 @@
 		"name"     : "Theme 10",
 		"demo"     : "https://yourcompanyurl.com/themes/theme_10",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme10/?r =Rodgath",
-		"preview"  : "theme10.jpg",
+		"preview"  : "previews/theme10.jpg",
 		"category" : "Multi-Purpose",
 		"featured" : "",
 		"type"     : ""
@@ -114,7 +114,7 @@
 		"name"     : "Theme 11",
 		"demo"     : "https://yourcompanyurl.com/themes/theme_11",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme11/?r =Rodgath",
-		"preview"  : "theme11.jpg",
+		"preview"  : "previews/theme11.jpg",
 		"category" : "Multi-Purpose",
 		"featured" : "",
 		"type"     : ""
@@ -125,7 +125,7 @@
 		"name"     : "Theme 12",
 		"demo"     : "https://yourcompanyurl.com/themes/theme_12",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme12/?r =Rodgath",
-		"preview"  : "theme12.jpg",
+		"preview"  : "previews/theme12.jpg",
 		"category" : "Multi-Purpose",
 		"featured" : "",
 		"type"     : ""
