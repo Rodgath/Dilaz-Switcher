@@ -44,7 +44,29 @@ DOMready(function() {
 		
 		_itemsObject = _itemsObject;
 		
+		/* Set current item */
 		var _currentItemId = decodeURI(location.search.substring(location.search.indexOf('=')+1)) || Object.keys(_itemsObject)[0];
+		
+		/* Build items select dropdown list */
+		var _ddSelectList = document.createElement('ul');
+		
+		for (var prop in _itemsObject) {
+			if (_itemsObject.hasOwnProperty(prop)) {
+				var _itemData = _itemsObject[prop];
+				var _ddSelectListItem = document.createElement('li');
+				
+			var ddListItemContent = '';
+					ddListItemContent += '<a href="javascript:void();" data-item-id="'+ _itemData.id +'" data-item-name="'+ _itemData.name +'" data-item-demo="'+ _itemData.demo +'" data-item-buy="'+ _itemData.buy +'">'+ _itemData.name +' <span>'+ _itemData.category +'</span></a><img alt="" class="preview" src="'+ _itemData.preview +'">';
+			
+				_ddSelectListItem.innerHTML = ddListItemContent;
+				
+				_ddSelectList.appendChild(_ddSelectListItem);
+			}
+		}
+		
+		// console.log(_ddSelectList)
+		
+		document.querySelector('.dd-wrap').appendChild(_ddSelectList);
 		
 		/**
 		 * Get item data
@@ -97,15 +119,15 @@ DOMready(function() {
 				
 				event.preventDefault();
 				
-				_deviceFrame.src = (this).getAttribute('data-item-demo');
-				
-				window.location.href = '?item=' + (this).getAttribute('data-item-name');
+				window.location.href = '?item=' + (this).getAttribute('data-item-id');
 				
 			}, true);
 		}
 		
 		var _currentItemData = _getItemData(_currentItemId),
 			_currentItemName = _currentItemData.name || 'Select';
+				console.log(_currentItemData)
+				_deviceFrame.src = _currentItemData.demo;
 			
 		_itemSelected.innerText = _currentItemName;
 		document.querySelector('.link-buy a').setAttribute('href', _currentItemData.buy);
