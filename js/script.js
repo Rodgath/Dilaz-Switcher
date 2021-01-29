@@ -23,14 +23,17 @@ DOMready(function() {
 	
 	var _itemsObject = {},
 		_itemSelector = document.querySelector('.dd-wrap'),
+		_itemSelected = document.querySelector('.dd-selected'),
 		_deviceSwitcher = document.querySelector('#switcher'),
 		_deviceFrame = _deviceSwitcher.querySelector('#switcher-frame');
 	
 	/* Read text file */
 	function readTextFile(file, callback) {
+		
 		var rawFile = new XMLHttpRequest();
-		rawFile.overrideMimeType("application/json");
-		rawFile.open("GET", file, true);
+		
+		rawFile.overrideMimeType('application/json');
+		rawFile.open('GET', file, true);
 		rawFile.onreadystatechange = function() {
 			if (rawFile.readyState === 4 && rawFile.status == "200") {
 				callback(rawFile.responseText);
@@ -95,8 +98,7 @@ DOMready(function() {
 			}
 		};
 		
-		var _itemSelected = document.querySelector('.dd-selected'),
-			_itemDropDown = document.querySelector('.dd-wrap ul'),
+		var _itemDropDown = document.querySelector('.dd-wrap ul'),
 			_dropDownOpen = false;
 		
 		var dropDownTriggers = document.querySelectorAll('.c-down, .c-up');
