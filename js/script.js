@@ -68,6 +68,7 @@ DOMready(function() {
 					_ddSelectLinkContent = '',
 					_ddSelectPreview = document.createElement('img');
 					
+				_ddSelectLink.setAttribute('href', 'javascript:void();');
 				_ddSelectLink.setAttribute('data-item-id', (_itemData.id || ''));
 				_ddSelectLink.setAttribute('data-item-name', (_itemData.name || ''));
 				_ddSelectLink.setAttribute('data-item-demo', (_itemData.demo || ''));
