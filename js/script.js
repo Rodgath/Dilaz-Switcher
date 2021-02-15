@@ -21,11 +21,11 @@ var DOMready = function(fn) {
 /* DOM is ready */
 DOMready(function() {
 	
-	var _itemsObject = {},
-		_itemSelector = document.querySelector('.dd-wrap'),
-		_itemSelected = document.querySelector('.dd-selected'),
+	var _itemsObject    = {},
+		_itemSelector   = document.querySelector('.dd-wrap'),
+		_itemSelected   = document.querySelector('.dd-selected'),
 		_deviceSwitcher = document.querySelector('#switcher'),
-		_deviceFrame = _deviceSwitcher.querySelector('#switcher-frame');
+		_deviceFrame    = _deviceSwitcher.querySelector('#switcher-frame');
 		
 	/**
 	 * Read text file
@@ -62,11 +62,11 @@ DOMready(function() {
 		for (var prop in _itemsObject) {
 			if (_itemsObject.hasOwnProperty(prop)) {
 				
-				var _itemData = _itemsObject[prop],
-					_ddSelectListItem = document.createElement('li'),
-					_ddSelectLink = document.createElement('a'),
+				var _itemData            = _itemsObject[prop],
+					_ddSelectListItem    = document.createElement('li'),
+					_ddSelectLink        = document.createElement('a'),
 					_ddSelectLinkContent = '',
-					_ddSelectPreview = document.createElement('img');
+					_ddSelectPreview     = document.createElement('img');
 					
 				_ddSelectLink.setAttribute('href', 'javascript:void();');
 				_ddSelectLink.setAttribute('data-item-id', (_itemData.id || ''));
@@ -105,8 +105,8 @@ DOMready(function() {
 			}
 		};
 		
-		var _itemDropDown = document.querySelector('.dd-wrap ul'),
-			_dropDownOpen = false,
+		var _itemDropDown     = document.querySelector('.dd-wrap ul'),
+			_dropDownOpen     = false,
 			_dropDownTriggers = document.querySelectorAll('.c-down, .c-up');
 		
 		for (var i = 0; i < _dropDownTriggers.length; i++) {
@@ -147,7 +147,7 @@ DOMready(function() {
 		_deviceFrame.src = _currentItemData.demo;
 		
 		/* Set the iFrame size */
-		var	_deviceSwitcherH = _deviceSwitcher.clientHeight,
+		var	_deviceSwitcherH  = _deviceSwitcher.clientHeight,
 			_deviceSwitcherWH = window.innerHeight;
 			
 		_deviceFrame.style.height = (_deviceSwitcherWH - _deviceSwitcherH) +'px';
@@ -156,14 +156,19 @@ DOMready(function() {
 	/* Read JSON company.json file and process the callback function */
 	readTextFile('company.json', function(text) {
 		var _companyData = JSON.parse(text),
-			_logo = document.querySelector('.logo a'),
-			_logoImage = _logo.querySelector('img');
+			_logo        = document.querySelector('.logo a'),
+			_logoImage   = _logo.querySelector('img'),
+			_docTitle    = _companyData.docTitle;
 			
 		_logo.setAttribute('href', _companyData.url);
 		_logo.setAttribute('title', _companyData.name);
 		
 		_logoImage.setAttribute('src', _companyData.logo);
 		_logoImage.setAttribute('alt', _companyData.name);
+		
+		if (document.title != _docTitle) {
+			document.title = _docTitle;
+		}
 		
 	});
 	
