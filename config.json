@@ -16,7 +16,7 @@
 		"demo"     : "https://yourcompanyurl.com/themes/theme_2",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme2/",
 		"preview"  : "previews/theme2.jpg",
-		"category" : "Multi-Purpose",
+		"category" : "One Page",
 		"featured" : "",
 		"type"     : ""
 	},
@@ -27,7 +27,7 @@
 		"demo"     : "https://yourcompanyurl.com/themes/theme_3",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme3/",
 		"preview"  : "previews/theme3.jpg",
-		"category" : "Multi-Purpose",
+		"category" : "Business",
 		"featured" : "",
 		"type"     : ""
 	},
@@ -38,7 +38,7 @@
 		"demo"     : "https://yourcompanyurl.com/themes/theme_4",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme4/",
 		"preview"  : "previews/theme4.jpg",
-		"category" : "Multi-Purpose",
+		"category" : "Magazine",
 		"featured" : "",
 		"type"     : ""
 	},
@@ -60,7 +60,7 @@
 		"demo"     : "https://yourcompanyurl.com/themes/theme_6",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme6/",
 		"preview"  : "previews/theme6.jpg",
-		"category" : "Multi-Purpose",
+		"category" : "Events",
 		"featured" : "",
 		"type"     : ""
 	},
@@ -71,7 +71,7 @@
 		"demo"     : "https://yourcompanyurl.com/themes/theme_7",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme7/",
 		"preview"  : "previews/theme7.jpg",
-		"category" : "Multi-Purpose",
+		"category" : "Travel",
 		"featured" : "",
 		"type"     : ""
 	},
@@ -82,7 +82,7 @@
 		"demo"     : "https://yourcompanyurl.com/themes/theme_8",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme8/",
 		"preview"  : "previews/theme8.jpg",
-		"category" : "Multi-Purpose",
+		"category" : "Real Estate",
 		"featured" : "",
 		"type"     : ""
 	},
@@ -93,7 +93,7 @@
 		"demo"     : "https://yourcompanyurl.com/themes/theme_9",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme9/",
 		"preview"  : "previews/theme9.jpg",
-		"category" : "Multi-Purpose",
+		"category" : "Booking",
 		"featured" : "",
 		"type"     : ""
 	},
@@ -104,7 +104,7 @@
 		"demo"     : "https://yourcompanyurl.com/themes/theme_10",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme10/",
 		"preview"  : "previews/theme10.jpg",
-		"category" : "Multi-Purpose",
+		"category" : "WooCommerce",
 		"featured" : "",
 		"type"     : ""
 	},
@@ -115,7 +115,7 @@
 		"demo"     : "https://yourcompanyurl.com/themes/theme_11",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme11/",
 		"preview"  : "previews/theme11.jpg",
-		"category" : "Multi-Purpose",
+		"category" : "Corporate",
 		"featured" : "",
 		"type"     : ""
 	},
@@ -126,7 +126,7 @@
 		"demo"     : "https://yourcompanyurl.com/themes/theme_12",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme12/",
 		"preview"  : "previews/theme12.jpg",
-		"category" : "Multi-Purpose",
+		"category" : "Landing",
 		"featured" : "",
 		"type"     : ""
 	}
