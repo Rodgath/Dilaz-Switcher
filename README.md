@@ -1,4 +1,4 @@
 # Item-Switcher
 Item (Themes, Plugins etc) switcher in an iFrame. 
 
-This switcher is built using pure vanila JavaScript.
+This switcher is built using with vanila JavaScript.
