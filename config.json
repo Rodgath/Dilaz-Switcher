@@ -9,7 +9,6 @@
 		"featured" : "",
 		"type"     : ""
 	},
-	
 	"theme2" : {
 		"id"       : "theme2",
 		"name"     : "Theme 2",
@@ -20,7 +19,6 @@
 		"featured" : "",
 		"type"     : ""
 	},
-	
 	"theme3" : {
 		"id"       : "theme3",
 		"name"     : "Theme 3",
@@ -31,7 +29,6 @@
 		"featured" : "",
 		"type"     : ""
 	},
-	
 	"theme4" : {
 		"id"       : "theme4",
 		"name"     : "Theme 4",
@@ -42,7 +39,6 @@
 		"featured" : "",
 		"type"     : ""
 	},
-	
 	"theme5" : {
 		"id"       : "theme5",
 		"name"     : "Theme 5",
@@ -53,7 +49,6 @@
 		"featured" : "",
 		"type"     : ""
 	},
-	
 	"theme6" : {
 		"id"       : "theme6",
 		"name"     : "Theme 6",
@@ -64,7 +59,6 @@
 		"featured" : "",
 		"type"     : ""
 	},
-	
 	"theme7" : {
 		"id"       : "theme7",
 		"name"     : "Theme 7",
@@ -75,7 +69,6 @@
 		"featured" : "",
 		"type"     : ""
 	},
-	
 	"theme8" : {
 		"id"       : "theme8",
 		"name"     : "Theme 8",
@@ -86,7 +79,6 @@
 		"featured" : "",
 		"type"     : ""
 	},
-	
 	"theme9" : {
 		"id"       : "theme9",
 		"name"     : "Theme 9",
@@ -97,7 +89,6 @@
 		"featured" : "",
 		"type"     : ""
 	},
-	
 	"theme10" : {
 		"id"       : "theme10",
 		"name"     : "Theme 10",
@@ -108,7 +99,6 @@
 		"featured" : "",
 		"type"     : ""
 	},
-	
 	"theme11" : {
 		"id"       : "theme11",
 		"name"     : "Theme 11",
@@ -119,7 +109,6 @@
 		"featured" : "",
 		"type"     : ""
 	},
-	
 	"theme12" : {
 		"id"       : "theme12",
 		"name"     : "Theme 12",
@@ -130,5 +119,4 @@
 		"featured" : "",
 		"type"     : ""
 	}
-	
 }
