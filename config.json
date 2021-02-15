@@ -24,7 +24,7 @@
 	"theme3" : {
 		"id"       : "theme3",
 		"name"     : "Theme 3",
-		"demo"     : "http://localhost:55/HTML_OWN/Yolanda/",
+		"demo"     : "https://yourcompanyurl.com/themes/theme_3",
 		"buy"      : "https://www.ThemeDilaz.com/theme/theme3/",
 		"preview"  : "previews/theme3.jpg",
 		"category" : "Multi-Purpose",
