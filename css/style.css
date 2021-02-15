@@ -210,7 +210,8 @@ a {
 
 #switcher-frame {
 	margin: 0 auto;
-	display: block
+	display: block;
+	background-color: #808080
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
