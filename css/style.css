@@ -210,7 +210,12 @@ a {
 
 #switcher-frame {
 	margin: 0 auto;
+<<<<<<< HEAD
 	display: block
+=======
+	display: block;
+	background-color: #808080
+>>>>>>> e0745bf126c55f29e22281f4dca2d117b1a69d61
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -236,4 +241,8 @@ a {
 	.preview, .buy-text { display: none !important }
 	.buy a, .close a { padding: 0 15px }
 	.buy a img, .close a img { margin-right: 0 }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e0745bf126c55f29e22281f4dca2d117b1a69d61
