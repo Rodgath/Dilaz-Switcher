@@ -1,0 +1,134 @@
+{
+	"theme1" : {
+		"id"       : "theme1",
+		"name"     : "Theme 1",
+		"demo"     : "https://yourcompanyurl.com/themes/theme_1",
+		"buy"      : "https://www.ThemeDilaz.com/theme/theme1/",
+		"preview"  : "previews/theme1.jpg",
+		"category" : "Multi-Purpose",
+		"featured" : "",
+		"type"     : ""
+	},
+	
+	"theme2" : {
+		"id"       : "theme2",
+		"name"     : "Theme 2",
+		"demo"     : "https://yourcompanyurl.com/themes/theme_2",
+		"buy"      : "https://www.ThemeDilaz.com/theme/theme2/",
+		"preview"  : "previews/theme2.jpg",
+		"category" : "Multi-Purpose",
+		"featured" : "",
+		"type"     : ""
+	},
+	
+	"theme3" : {
+		"id"       : "theme3",
+		"name"     : "Theme 3",
+		"demo"     : "http://localhost:55/HTML_OWN/Yolanda/",
+		"buy"      : "https://www.ThemeDilaz.com/theme/theme3/",
+		"preview"  : "previews/theme3.jpg",
+		"category" : "Multi-Purpose",
+		"featured" : "",
+		"type"     : ""
+	},
+	
+	"theme4" : {
+		"id"       : "theme4",
+		"name"     : "Theme 4",
+		"demo"     : "https://yourcompanyurl.com/themes/theme_4",
+		"buy"      : "https://www.ThemeDilaz.com/theme/theme4/",
+		"preview"  : "previews/theme4.jpg",
+		"category" : "Multi-Purpose",
+		"featured" : "",
+		"type"     : ""
+	},
+	
+	"theme5" : {
+		"id"       : "theme5",
+		"name"     : "Theme 5",
+		"demo"     : "https://yourcompanyurl.com/themes/theme_5",
+		"buy"      : "https://www.ThemeDilaz.com/theme/theme5/",
+		"preview"  : "previews/theme5.jpg",
+		"category" : "Multi-Purpose",
+		"featured" : "",
+		"type"     : ""
+	},
+	
+	"theme6" : {
+		"id"       : "theme6",
+		"name"     : "Theme 6",
+		"demo"     : "https://yourcompanyurl.com/themes/theme_6",
+		"buy"      : "https://www.ThemeDilaz.com/theme/theme6/",
+		"preview"  : "previews/theme6.jpg",
+		"category" : "Multi-Purpose",
+		"featured" : "",
+		"type"     : ""
+	},
+	
+	"theme7" : {
+		"id"       : "theme7",
+		"name"     : "Theme 7",
+		"demo"     : "https://yourcompanyurl.com/themes/theme_7",
+		"buy"      : "https://www.ThemeDilaz.com/theme/theme7/",
+		"preview"  : "previews/theme7.jpg",
+		"category" : "Multi-Purpose",
+		"featured" : "",
+		"type"     : ""
+	},
+	
+	"theme8" : {
+		"id"       : "theme8",
+		"name"     : "Theme 8",
+		"demo"     : "https://yourcompanyurl.com/themes/theme_8",
+		"buy"      : "https://www.ThemeDilaz.com/theme/theme8/",
+		"preview"  : "previews/theme8.jpg",
+		"category" : "Multi-Purpose",
+		"featured" : "",
+		"type"     : ""
+	},
+	
+	"theme9" : {
+		"id"       : "theme9",
+		"name"     : "Theme 9",
+		"demo"     : "https://yourcompanyurl.com/themes/theme_9",
+		"buy"      : "https://www.ThemeDilaz.com/theme/theme9/",
+		"preview"  : "previews/theme9.jpg",
+		"category" : "Multi-Purpose",
+		"featured" : "",
+		"type"     : ""
+	},
+	
+	"theme10" : {
+		"id"       : "theme10",
+		"name"     : "Theme 10",
+		"demo"     : "https://yourcompanyurl.com/themes/theme_10",
+		"buy"      : "https://www.ThemeDilaz.com/theme/theme10/",
+		"preview"  : "previews/theme10.jpg",
+		"category" : "Multi-Purpose",
+		"featured" : "",
+		"type"     : ""
+	},
+	
+	"theme11" : {
+		"id"       : "theme11",
+		"name"     : "Theme 11",
+		"demo"     : "https://yourcompanyurl.com/themes/theme_11",
+		"buy"      : "https://www.ThemeDilaz.com/theme/theme11/",
+		"preview"  : "previews/theme11.jpg",
+		"category" : "Multi-Purpose",
+		"featured" : "",
+		"type"     : ""
+	},
+	
+	"theme12" : {
+		"id"       : "theme12",
+		"name"     : "Theme 12",
+		"demo"     : "https://yourcompanyurl.com/themes/theme_12",
+		"buy"      : "https://www.ThemeDilaz.com/theme/theme12/",
+		"preview"  : "previews/theme12.jpg",
+		"category" : "Multi-Purpose",
+		"featured" : "",
+		"type"     : ""
+	}
+	
+}
